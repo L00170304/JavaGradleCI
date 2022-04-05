@@ -13,13 +13,13 @@ public class AppTest {
 
     }
     
-    @Test public void appFailedTest(){
+    /* @Test public void appFailedTest(){
         // Arrange
         App myApp = new App();
 
         // Act and Assert
         assertNull(myApp.getGreeting(), "app should have a greeting");
 
-    }
+    } */
     
 }
