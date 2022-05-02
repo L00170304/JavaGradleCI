@@ -30,3 +30,7 @@ jobs:
       # Run our build using Gradle
       - name: Build with Gradle
         run: ./gradlew build
+        
+      # Create a build scan
+      - name: Create a build scan
+        run: ./gradlew build --scan
