@@ -21,7 +21,7 @@ public class AppTest {
     /**
      * Test to force a failed test.
      */
-     @Test public void appFailedTest(){
+     @Test(enabled = false) public void appFailedTest(){
         // Arrange
         App myApp = new App();
 
