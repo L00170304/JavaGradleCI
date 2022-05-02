@@ -22,10 +22,10 @@ repositories{
 }
 
 dependencies{
-    //Specify  the TestNG framwork
+    //Specify  the TestNG framework
     testImplementation("org.testng:testng:7.4.0")
 
-    // The dependancy also uses the giigke guava library
+    // The dependancy also uses the google guava library
     implementation("com.google.guava:guava:30.0-jre")
 
 
@@ -42,6 +42,10 @@ tasks.test{
     // use TestNG for unit test
     useTestNG()
 
+}
+
+java {
+    withJavadocJar()
 }
 
 
